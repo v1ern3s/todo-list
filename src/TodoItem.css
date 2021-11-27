@@ -1,0 +1,31 @@
+.TodoItem {
+  background-color: #f5f0eb;
+  margin: 1em 2em 1em 2em;
+  text-align: start;
+  text-justify: center;
+  padding: 1em 0 1em 0;
+  padding-left: 2em;
+  position: relative;
+  font-size: 1.1em;
+  font-weight: 600;
+  border-radius: 0.5em;
+}
+
+.TodoItem__closeButton {
+  background-color: #809FA8;
+  border-radius: 4em;
+  font-size: 1.4jem;
+  padding: 0.5em 0.7em;
+  position: absolute;
+  top: -0.5em;
+  right: -0.5em;
+  font-weight: bold;
+  text-align: center;
+  text-justify: center;
+  border: 0;
+  color: #fff;
+}
+
+.TodoItem--completed {
+  text-decoration: line-through;
+}
